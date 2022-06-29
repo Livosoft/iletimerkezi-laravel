@@ -31,12 +31,12 @@ Controller dosyamıza
     
      public function success()
     {
-        $date = Dates::where('date_token',$tokens)->first();
+        
         $username   = 'xxxx';
         $password   = 'xxxx';
-        $header     = 'xxxx';
+        $header     = 'başlık';
         $message    = 'Merhaba mesaj içeriği';
-        $number     = 'xxxxx';
+        $number     = 'telefon_no';
         $date       = 'xxxxxx'; 
 
         $xml = <<<EOS
